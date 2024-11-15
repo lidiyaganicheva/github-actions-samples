@@ -8,6 +8,11 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    paths-ignore:
+      - 'ci-cd-python-app.yml'
+      - 'ci-python-app.yml'
+      - 'greetings.yml'
+      
 
 jobs:
   build:
